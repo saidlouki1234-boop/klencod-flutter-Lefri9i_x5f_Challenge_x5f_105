@@ -1,0 +1,30 @@
+name: lefri9i_challenge_105
+description: تحدي الإفريقي - لعبة أسئلة النادي الإفريقي التونسي
+publish_to: 'none'
+version: 1.0.0+1
+environment:
+  sdk: ">=3.2.0 <4.0.0"
+  flutter: ">=3.16.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  shared_preferences: ^2.2.2
+  provider: ^6.1.1
+  google_fonts: ^6.1.0
+  confetti: ^0.7.0
+  audioplayers: ^6.0.0
+  supabase_flutter: ^2.5.0
+  intl: ^0.19.0
+  cached_network_image: ^3.3.0
+  lottie: ^3.1.2
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icons/
